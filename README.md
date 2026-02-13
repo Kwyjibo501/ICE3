@@ -22,3 +22,9 @@ Then it **elaborates** the entity defined by `$TB_ENTITY`
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+![description of my waveform](Screenshot 2026-02-12 173324.png)
+
+![drawing for ice](Screenshot 2026-02-12 175537.png)
+
+Doc statement: worked with C3C Jake Couch
